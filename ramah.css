@@ -69,6 +69,10 @@ body{
     color:#000;
 }
 
+svg {
+    width:30px;height:30px
+}
+
 a:link {
   color: #fff;
   text-decoration: none;
@@ -92,10 +96,10 @@ p span
     display: block;
 }
 
-.fa-beat {
-  animation:fa-beat 2s ease infinite;
+.detak {
+  animation:detak 2s ease infinite;
 }
-@keyframes fa-beat{from{transform:scale(1)}10%{transform:scale(1.2)}}
+@keyframes detak{from{transform:scale(1)}10%{transform:scale(1.2)}}
 
 
 
