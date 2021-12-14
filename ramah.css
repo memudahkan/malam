@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+
+/* Semut */
+html {scroll-behavior:smooth;}
+
 body{
     background:#000;
     font-family:Palatino;
