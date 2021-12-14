@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#000;
+    font-family:Palatino;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing:-1px;
+ 
+    
+}
+.section{
+    margin:0px;
+    height:1000px;
+    width:100%;
+    float:left;
+}
+.section h2{
+    margin:50px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.black{
+    color:#fff;
+    background:#000 url(https://1.bp.blogspot.com/-HacmVftjtUM/XWh1hC-OuaI/AAAAAAAAA1Q/vC-w7Ugcq5MiO3Q-bdQQ7vHYwfd22FTMwCK4BGAYYCw/s1600/Citynight-invert.jpg) repeat-x bottom left;
+}
+.white{
+    color:#000;
+    background:#fff url(https://3.bp.blogspot.com/--FxUigZuSQE/XWh1VEHgXKI/AAAAAAAAA1I/Yh7P1pbXzzQQnHckgoBxDUbYspt57J39QCK4BGAYYCw/s1600/Citynight-edit.jpg) repeat-x bottom left;
+}
+.section ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+.black ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.black ul li a{
+    text-decoration:none;
+    display:block;
+    color:#f0f0f0;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.white ul li{
+    text-decoration:none;
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.white ul li a{
+    text-decoration:none;
+    display:block;
+    color:#222;
+}
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+
+/* Links Global */
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+  }
+a:visited {
+  color: #ECECEC;
+  text-decoration: none;
+  }
+a:hover {
+  color: #E0E0E0;
+  text-decoration: none;
+  }
+a img {
+  border-width:0;
+  }
+
+.credit{font-size:20px;font-style:normal;margin-top: 20px;}
+
+p span 
+{
+    display: block;
+}
+
+.fa-beat {
+  animation:fa-beat 2s ease infinite;
+}
+@keyframes fa-beat{from{transform:scale(1)}10%{transform:scale(1.2)}}
+
+
+
+@media screen and (max-width:600px){.section h2,.section p,.section ul {
+    margin: 20px;
+}.section p{width:90%}.black,.white{}.section{height:1500px;}.section ul{float:right}}
+
+@media screen and (max-width:360px){.section{font-size:25px}
+
+@media screen and (max-width:320px){.section{font-size:28px}.section ul{margin:0 20px;}}
