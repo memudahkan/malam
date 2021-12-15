@@ -103,7 +103,7 @@ p span
 
 
 
-@media screen and (max-width:600px){.section h2,.section p,.section ul {margin: 20px;}.section p{width:90%}.black,.white{}.section{height: auto;padding-bottom: 100%;}.section ul{float:right}.black,.white{background-size:70%}.section h2{font-size:12vw;}}
+@media screen and (max-width:600px){.section h2,.section p,.section ul {margin: 20px;}.section p{width:90%}.black,.white{}.section{height: auto;padding-bottom: 100%;}.section ul{float:right}.black,.white{background-size:70%}.section h2{font-size:11vw;}}
 
 @media screen and (max-width:360px){.section{font-size:25px}}
 
