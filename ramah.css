@@ -65,7 +65,6 @@ body{
     text-decoration:none;
     display:block;
     color:#f0f0f0;
-    touch-action: none;
 }
 .black ul li a:hover{
     text-decoration:none;
