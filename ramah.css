@@ -3,8 +3,6 @@
     padding:0;
 }
 
-html:focus-within {scroll-behavior: smooth;}
-
 /* latin-ext */
 @font-face {
   font-family: 'Castoro';
