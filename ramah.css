@@ -1,122 +1,154 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 /* latin-ext */
 @font-face {
-  font-family: 'Castoro';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYp-wc4avEU.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'Castoro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYp-wc4avEU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Castoro';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYp-z84a.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'Castoro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/castoro/v8/1q2EY5yMCld3-O4cLYp-z84a.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-body{
-    background:#000;
-    font-family:'Castoro', serif;
+body {
+    background: #000;
+    font-family: 'Castoro', serif;
     font-size: 34px;
-    font-style: italic;   
+    font-style: italic;
 }
-.section{
-    margin:0px;
-    height:1000px;
-    width:100%;
-    float:left;
+.section {
+    margin: 0px;
+    height: 1000px;
+    width: 100%;
+    float: left;
 }
-.section h2{
-    margin:50px 0px 30px 50px;
+.section h2 {
+    margin: 50px 0px 30px 50px;
 }
-.section p{
-    margin:20px 0px 0px 50px;
-    width:600px;
+.section p {
+    margin: 20px 0px 0px 50px;
+    width: 600px;
 }
-.black{
-    color:#fff;
-    background:#000 url(https://blogger.googleusercontent.com/img/a/AVvXsEiV5Ijo0ddA6ZlkctLILoJ0gVVb-VzSAdrQyJb0cmNhQuq0kUuB8dgU1ypN8WOJBrzBkZ8rGiuRc5aQlkmbndSQ5udcBZ-kwaa5iCdY7suZHJ-WPHH9dcZWKYkVJT5If_Hrn57g0EiaXGEHFlgAxAkJfowLz76pj7syBM33CBVQQHhnRhlXgaQUpmqg=s0-rw) repeat-x bottom left;
+.black {
+    color: #fff;
+    background: #000 url(https://blogger.googleusercontent.com/img/a/AVvXsEiV5Ijo0ddA6ZlkctLILoJ0gVVb-VzSAdrQyJb0cmNhQuq0kUuB8dgU1ypN8WOJBrzBkZ8rGiuRc5aQlkmbndSQ5udcBZ-kwaa5iCdY7suZHJ-WPHH9dcZWKYkVJT5If_Hrn57g0EiaXGEHFlgAxAkJfowLz76pj7syBM33CBVQQHhnRhlXgaQUpmqg=s0-rw) repeat-x bottom left;
 }
-.white{
-    color:#000;
-    background:#fff url(https://blogger.googleusercontent.com/img/a/AVvXsEjedtcw4ho9p2ouNuB_66djKWXva1Ms_EZ9Vzwhc9kC50SB5MhxWlcORTmk-zIBQvdxBo9_K5-46e5AjW4WLh2IV-NnuAgBZNbZRNnSWIyfUPhpjf5stf7T_R680DDSeFGYgn4q9BBYiMItm1q3Ddl1sHghXy1fOxXlie9fbvu4TiCyTd3_hlbwlnwU=s0-rw) repeat-x bottom left;
+.white {
+    color: #000;
+    background: #fff url(https://blogger.googleusercontent.com/img/a/AVvXsEjedtcw4ho9p2ouNuB_66djKWXva1Ms_EZ9Vzwhc9kC50SB5MhxWlcORTmk-zIBQvdxBo9_K5-46e5AjW4WLh2IV-NnuAgBZNbZRNnSWIyfUPhpjf5stf7T_R680DDSeFGYgn4q9BBYiMItm1q3Ddl1sHghXy1fOxXlie9fbvu4TiCyTd3_hlbwlnwU=s0-rw) repeat-x bottom left;
 }
-.section ul{
-    list-style:none;
-    margin:20px 0px 0px 600px;
+.section ul {
+    list-style: none;
+    margin: 20px 0px 0px 600px;
 }
-.black ul li{
-    float:left;
-    padding:5px;
-    margin:5px;
-    color:#aaa;
+.black ul li {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    color: #aaa;
 }
-.black ul li a{
-    text-decoration:none;
-    display:block;
-    color:#f0f0f0;
+.black ul li a {
+    text-decoration: none;
+    display: block;
+    color: #f0f0f0;
 }
-.black ul li a:hover{
-    text-decoration:none;
-    color:#fff;
+.black ul li a:hover {
+    text-decoration: none;
+    color: #fff;
 }
-.white ul li{
-    text-decoration:none;
-    float:left;
-    padding:5px;
-    margin:5px;
-    color:#aaa;
+.white ul li {
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    color: #aaa;
 }
-.white ul li a{
-    text-decoration:none;
-    display:block;
-    color:#222;
+.white ul li a {
+    text-decoration: none;
+    display: block;
+    color: #222;
 }
-.white ul li a:hover{
-    text-decoration:none;
-    color:#000;
+.white ul li a:hover {
+    text-decoration: none;
+    color: #000;
 }
 
 svg {
-    width:30px;height:30px
+    width: 30px;
+    height: 30px
 }
 
 a:link {
-  color: #fff;
-  text-decoration: none;
-  }
+    color: #fff;
+    text-decoration: none;
+}
 a:visited {
-  color: #ECECEC;
-  text-decoration: none;
-  }
+    color: #ECECEC;
+    text-decoration: none;
+}
 a:hover {
-  color: #E0E0E0;
-  text-decoration: none;
-  }
+    color: #E0E0E0;
+    text-decoration: none;
+}
 a img {
-  border-width:0;
-  }
+    border-width: 0;
+}
 
-.credit{font-size:20px;font-style:normal;margin-top: 20px;}
+.credit {
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 20px;
+}
 
-p span 
-{
+p span {
     display: block;
 }
 
 .detak {
-  animation:detak 2s ease infinite;
+    animation: detak 2s ease infinite;
 }
-@keyframes detak{from{transform:scale(1)}10%{transform:scale(1.2)}}
+@keyframes detak {
+    from {
+        transform: scale(1)
+    }
+    10% {
+        transform: scale(1.2)
+    }
+}
 
 
 
-@media screen and (max-width:600px){.section h2,.section p,.section ul {margin: 15px;}.section p{width:90%;font-size:8vw}.section{height: auto;padding-bottom: 45vh;}.section ul{float:right}.black,.white{background-size:70%}.section h2{font-size:10vw;}}
+@media screen and (max-width:600px) {
+    .section h2, .section p, .section ul {
+        margin: 15px;
+    }
+    .section p {
+        width: 90%;
+        font-size: 8vw
+    }
+    .section {
+        height: auto;
+        padding-bottom: 45vh;
+    }
+    .section ul {
+        float: right
+    }
+    .black, .white {
+        background-size: 70%
+    }
+    .section h2 {
+        font-size: 10vw;
+    }
+}
