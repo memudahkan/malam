@@ -90,17 +90,6 @@ body {
 }
 
 .black ul li a:after {
-pointer-events: none;
-position: absolute;
-width: 100%;
-height: 100%;
-border-radius: 50%;
-content: '';
--webkit-box-sizing: content-box; 
--moz-box-sizing: content-box; 
-box-sizing: content-box;
-
-
   top: 0;
   left: 0;
   padding: 0;
@@ -111,6 +100,7 @@ box-sizing: content-box;
   -moz-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
+  content:'';
 }
 .black ul li a:hover:after {
   -webkit-animation: sonarEffect 1.3s ease-out 75ms;
