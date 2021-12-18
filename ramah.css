@@ -68,7 +68,7 @@ body {
     margin: 5px;
     color: #aaa;
 }
-.black ul li a {
+.black ul li a, .white ul li a {
     text-decoration: none;
     display: inline-block;
     color: #f0f0f0;
@@ -82,13 +82,13 @@ body {
     -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
     -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
 }
-.black ul li a:hover {
+.black ul li a:hover, .white ul li a:hover {
     text-decoration: none;
     color: #fff;
     transform: scale(0.93);
 }
 
-.black ul li a:after {
+.black ul li a:after, .white ul li a:after {
     top: 0;
     left: 0;
     padding: 0;
@@ -109,7 +109,7 @@ body {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-.black ul li a:hover:after {
+.black ul li a:hover:after, .white ul li a:hover:after {
   -webkit-animation: halo 1.3s ease-out 75ms;
   -moz-animation: halo 1.3s ease-out 75ms;
   animation: halo 1.3s ease-out 75ms;
