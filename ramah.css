@@ -79,44 +79,42 @@ body {
     position: relative;
     font-size: 0px;
     transition: transform ease-out 0.1s, background 0.2s;
-    background: rgba(255,255,255,0.1);
     -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
     -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
 }
 .black ul li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.05);
     transform: scale(0.93);
 }
 
 .black ul li a:after {
-  top: 0;
-  left: 0;
-  padding: 0;
-  z-index: -1;
-  box-shadow: 0 0 0 2px rgba(255,255,255,0.1);
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
-pointer-events: none;
-position: absolute;
-width: 100%;
-height: 100%;
-border-radius: 50%;
-content: '';
--webkit-box-sizing: content-box; 
--moz-box-sizing: content-box; 
-box-sizing: content-box;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 .black ul li a:hover:after {
-  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
-  -moz-animation: sonarEffect 1.3s ease-out 75ms;
-  animation: sonarEffect 1.3s ease-out 75ms;
+  -webkit-animation: halo 1.3s ease-out 75ms;
+  -moz-animation: halo 1.3s ease-out 75ms;
+  animation: halo 1.3s ease-out 75ms;
 }
-@-webkit-keyframes sonarEffect {
+@-webkit-keyframes halo {
 	0% {
 		opacity: 0.3;
 	}
@@ -130,7 +128,7 @@ box-sizing: content-box;
 		opacity: 0;
 	}
 }
-@-moz-keyframes sonarEffect {
+@-moz-keyframes halo {
 	0% {
 		opacity: 0.3;
 	}
@@ -144,7 +142,7 @@ box-sizing: content-box;
 		opacity: 0;
 	}
 }
-@keyframes sonarEffect {
+@keyframes halo {
 	0% {
 		opacity: 0.3;
 	}
