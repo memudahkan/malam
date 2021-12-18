@@ -88,7 +88,7 @@ ul li a:hover {
     transform: scale(0.93);
 }
 
-a[href*="selanjutnya"] {
+a:after[href*="selanjutnya"] {
     top: 0;
     left: 0;
     padding: 0;
@@ -109,7 +109,7 @@ a[href*="selanjutnya"] {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-a[href*="selanjutnya"] {
+a:after:hover[href*="selanjutnya"] {
   -webkit-animation: halo 1.3s ease-out 75ms;
   -moz-animation: halo 1.3s ease-out 75ms;
   animation: halo 1.3s ease-out 75ms;
