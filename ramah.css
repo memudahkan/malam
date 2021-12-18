@@ -172,6 +172,32 @@ a[href*="selanjutnya"]:hover:after {
 .white ul li a:hover {
     text-decoration: none;
     color: #000;
+    animation: muter 2s linear infinite;
+}
+
+@-webkit-keyframes muter {
+	from {
+		-webkit-transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes muter {
+	from {
+		-moz-transform: rotate(0deg)
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+@keyframes muter {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 svg {
