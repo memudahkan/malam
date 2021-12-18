@@ -82,7 +82,7 @@ ul li a {
     -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
     -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
 }
-ul li a:hover {
+a[href*="selanjutnya"]:hover {
     text-decoration: none;
     color: #fff;
     transform: scale(0.93);
