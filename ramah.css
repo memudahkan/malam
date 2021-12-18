@@ -75,6 +75,9 @@ body {
     position: relative;
     font-size: 0px;
     transition: transform ease-out 0.1s, background 0.2s;
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
 }
 .black ul li a:hover {
     text-decoration: none;
