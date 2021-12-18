@@ -109,7 +109,7 @@ ul li a:after {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-ul li a:after:hover {
+ul li a:hover:after {
   -webkit-animation: halo 1.3s ease-out 75ms;
   -moz-animation: halo 1.3s ease-out 75ms;
   animation: halo 1.3s ease-out 75ms;
