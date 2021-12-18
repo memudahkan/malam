@@ -27,6 +27,11 @@ body {
     font-family: 'Castoro', serif;
     font-size: 34px;
     font-style: italic;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
 }
 .section {
     margin: 0px;
